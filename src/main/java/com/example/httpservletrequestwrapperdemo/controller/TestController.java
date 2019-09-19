@@ -27,4 +27,12 @@ public class TestController {
         System.out.println(user.getName()+user.getUid());
         return user;
     }
+
+    @GetMapping("/bean2")
+    private Object getsss(User user){
+        System.out.println(user.getName()+user.getUid());
+        return user;
+    }
+
+
 }
